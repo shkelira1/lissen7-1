@@ -1,0 +1,100 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background-color: #bac5db;
+}
+.letter-form{
+    background-color: #353a45;
+    padding: 85px 60px 65px 60px;
+    max-width: 660px;
+    box-sizing: border-box;
+    margin: 100px auto 0 auto;
+    border-radius: 20px;
+    position: relative;
+}
+.letter-form .form{
+    display: flex;
+    width: 100%;   
+}
+.letter-form .form [type="email"]{
+    flex-grow: 1;
+    margin: 0 13px;
+    height: 55px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+.letter-form .form [type="submit"]{
+   background-color: #538fff;
+   color: #fff;
+    height: 55px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+}
+.letter-form .form [type="submit"]:hover{
+    background-color: #1b50b3;  
+ }
+ .form{
+    margin-right: 60px;
+ }
+.letter-form .icon{
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    top: -46px;
+    left: 50%;
+    margin: 0 0 0 -46px;
+    border-radius: 50%;
+    background: #4ca6e3;
+background: -moz-linear-gradient(45deg,  #4ca6e3 0%, #8f75c1 100%);
+background: -webkit-linear-gradient(45deg,  #4ca6e3 0%,#8f75c1 100%);
+background: linear-gradient(45deg,  #4ca6e3 0%,#8f75c1 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    margin-bottom: 30px;
+    text-align: center;
+    color: #538fff;
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.text{
+    margin-bottom: 45px;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.info-text{
+    text-align: center;
+    color: #787d87;
+    margin-top: 37px;
+    font-size: 20px;
+    font-style: italic;
+}
+.icon-border{
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+.far{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    color: #fff;
+}
